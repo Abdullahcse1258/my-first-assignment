@@ -1,16 +1,17 @@
 *{
     margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 .header{
     background-image: url(../images/banner/banner3.png);
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
-    background-size: cover;
-    align-items: center;
-    
+    align-items: center; 
 }
 .header-first{
     text-align: right;
@@ -19,16 +20,17 @@
     color: #FFFFFF;
     font-weight: 700;
     font-size: 55px;
+    width: 420px;
     margin: 0 320px;
     padding-right: 20px;
     padding-left: 600px;
-    padding-bottom: 10px;
-    
+    padding-bottom: 10px; 
 }
 .header .header-description{
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
+    width: 390px;
     margin-top: 20px;
     margin-right: 350px;
     margin-left: 950px;
@@ -47,3 +49,165 @@
     border: 0;
     margin-right: 350px;
 }
+/* My failure */
+.previous{
+    display: flex;
+    margin: 131px 206px;
+    gap: 100px;
+    margin-bottom: 130px;
+}
+.previous .previous-div{
+    padding-top: 250px;
+    padding-right: 200px;
+}
+.previous img{
+    width: 569px;
+    height: 723.3px;
+}
+.previous-subtitle{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+    width: 400px;
+    
+}
+.previous-description{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+    width: 400px;
+}
+.previous-list{
+    padding: 15px;
+    list-style-type:inherit;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 8px;
+}
+
+/* My plan  */
+.plan-criteria{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+.previous-title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.plan-item{
+    text-align: center;
+}
+.plan-item .plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(24, 218, 159);
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.plan-item .plan-description{
+    font-weight: 500;
+    font-size: 22px;
+    color: #737272;
+}
+/* Gradiant mindset box */
+.gradiant{
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 300px;
+    margin-right: 120px;
+    margin-bottom: 130px;
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+}
+.gradiant .gradiant-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-left: 50px;
+    width: 600px;
+    margin-bottom: 24px;
+}
+.gradiant .btn-primary{
+    margin-left: 50px;
+    width: 160px;
+    height: 64px;
+    text-align: center;
+}
+.footer-section{
+    background: #151414;
+    width: 100%;
+    height: 577px;
+}
+.footer-mainpart{
+    display: flex;
+    gap: 200px;
+    padding-top: 130px;
+    margin: 0 250px;
+}
+.footer-title{
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    width: 600px;
+}
+.footer-email{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.footer-number{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.footer-part img{
+    width: 47px;
+    height: 46px;
+}
+.footer-subscribe{
+    padding-left: 200px;
+    width: 400px;
+}
+.footer-subtitle{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+.footer-subscribe input{
+    width: 325px;
+    height: 64px;
+    background:none;
+    color: #F3F3F3;
+    border-radius: 5px;
+    border-color: aliceblue;
+    margin-bottom: 16px;
+}
+.footer-subscribe .btn-primary{
+    background: #005FAC;
+    width: 170.11px;
+    height: 64px;
+    color: #FFFFFF;
+    text-align: center;
+}
+    
