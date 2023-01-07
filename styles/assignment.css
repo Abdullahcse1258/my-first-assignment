@@ -52,13 +52,13 @@
 /* My failure */
 .previous{
     display: flex;
-    margin: 131px 206px;
+    margin: 130px 150px;
     gap: 100px;
     margin-bottom: 130px;
 }
 .previous .previous-div{
     padding-top: 250px;
-    padding-right: 200px;
+    padding-right: 250px;
 }
 .previous img{
     width: 569px;
@@ -91,7 +91,7 @@
 /* My plan  */
 .plan-criteria{
     display: flex;
-    gap: 120px;
+    gap: 50px;
     justify-content: center;
     margin-bottom: 130px;
 }
@@ -122,8 +122,8 @@
     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 300px;
-    margin-right: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 130px;
     width: 1140px;
     height: 300px;
@@ -144,6 +144,7 @@
     height: 64px;
     text-align: center;
 }
+/* Footer part */
 .footer-section{
     background: #151414;
     width: 100%;
@@ -151,9 +152,9 @@
 }
 .footer-mainpart{
     display: flex;
-    gap: 200px;
+    gap: 20px;
     padding-top: 130px;
-    margin: 0 250px;
+    margin: 0 150px;
 }
 .footer-title{
     color: #F8F8F8;
@@ -166,7 +167,7 @@
     font-size: 16px;
     color: #FFFFFF;
     margin-bottom: 24px;
-    width: 600px;
+    width: 500px;
 }
 .footer-email{
     color: #FFFFFF;
